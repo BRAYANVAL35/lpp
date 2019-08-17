@@ -1,0 +1,66 @@
+real a,b,c
+caracter d
+cadena [6] f
+inicio
+escriba "digite su nombre"
+llamar nueva_linea
+lea f
+escriba "ingrese un caracter del menu"
+llamar nueva_linea
+escriba "s para la suma"
+llamar nueva_linea
+escriba "r para la resta"
+llamar nueva_linea
+escriba "m para multiplicar"
+llamar nueva_linea
+escriba "d para dividir"
+llamar nueva_linea
+escriba "caracter distinto a ris para terminar" 
+llamar nueva_linea
+   lea d
+   caso d
+       's': escriba "vamos a la suma"
+       llamar nueva_linea
+       lea a
+       llamar nueva_linea
+       escriba "ingrese segundo numero"
+       llamar nueva_linea
+       lea b
+       llamar nueva_linea
+       c<-a+b
+       escriba "la suma es:",c
+           'r': escriba "vamos a la resta"
+           llamar nueva_linea
+           lea a
+           llamar nueva_linea
+           escriba "ingrese segundo numero"
+           llamar nueva_linea
+           lea b
+           llamar nueva_linea
+           c<-a-b
+           escriba "la resta es:",c
+              'm': escriba "vamos a la multiplicacion"
+              llamar nueva_linea
+              lea a
+              llamar nueva_linea
+              escriba "ingrese segundo numero"
+              llamar nueva_linea
+              lea b
+              llamar nueva_linea
+              c<-a*b
+              escriba "la multiplicacion es:",c
+                 'd': escriba "vamos a la divicion"
+                 llamar nueva_linea
+                 lea a
+                 llamar nueva_linea
+                 escriba "ingrese segundo numero"
+                 llamar nueva_linea
+                 lea b
+                 llamar nueva_linea
+                 c<-a/b
+                 escriba "la divicion es:",c
+      sino: escriba "opcion invalida"
+     fin caso
+     llamar nueva_linea
+     escriba "su nombre es",f
+fin

@@ -1,0 +1,41 @@
+real edad
+ inicio
+ escriba "ingresar edad"
+ llamar nueva_linea
+ escriba "presente su edad"
+ lea edad
+ si (edad>90) entonces
+ escriba "anciano"
+  sino
+  si (edad>70) entonces
+  escriba "viejo"
+   sino
+   si (edad>60) entonces
+   escriba "tercera edad"
+    sino
+    si (edad>28) entonces
+    escriba "adulto mayor"
+     sino
+     si (edad>17) entonces
+     escriba "adulto"
+      sino
+      si (edad>10) entonces
+      escriba "adolescente"
+       sino
+       si (edad>1) entonces
+       escriba "niño"
+        sino
+        si (edad<1) entonces
+        escriba "bebe"
+        fin si
+       fin si
+      fin si
+     fin si
+    fin si
+   fin si   
+  fin si
+ fin si
+ fin
+ 
+ 
+ 
