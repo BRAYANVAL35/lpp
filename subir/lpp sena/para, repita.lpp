@@ -1,0 +1,68 @@
+arreglo [10] de cadena [100]cifraA
+arreglo [10] de entero cifraB
+arreglo [10] de real cifraC
+arreglo [10] de caracter cifraD
+entero n,numero,resp
+inicio
+numero<-0
+   repita 
+   repita
+     //comienzo caracter//
+    para n<-1 hasta 2 haga
+      escriba "ingrese cadena de caracteres"
+      llamar nueva_linea
+      lea cifraA [n]
+      llamar nueva_linea
+    fin para
+    escriba "el orden de las cifras de 1 a 2 es:"
+    para n<-1 hasta 2 haga
+      llamar nueva_linea
+      escriba cifraA [n]
+      llamar nueva_linea
+    fin para
+    //comienzo entero//
+    para n<-1 hasta 2 haga
+      escriba "ingrese numero entero"
+      llamar nueva_linea
+      lea cifraB [n]
+      llamar nueva_linea
+    fin para
+    escriba "el orden de las cifras de 1 a 2 es:"
+    para n<-1 hasta 2 haga
+      llamar nueva_linea
+      escriba cifraB [n]
+      llamar nueva_linea
+    fin para
+    //caracter real//
+     para n<-1 hasta 2 haga
+      escriba "ingrese numero real"
+      llamar nueva_linea
+      lea cifraC [n]
+      llamar nueva_linea
+    fin para
+    escriba "el orden de las cifras de 1 a 2 es:"
+    para n<-1 hasta 2 haga
+      llamar nueva_linea
+      escriba cifraC [n]
+      llamar nueva_linea
+    fin para
+    //comienzo caracter//
+        para n<-1 hasta 2 haga
+      escriba "ingrese caracter"
+      llamar nueva_linea
+      lea cifraD [n]
+      llamar nueva_linea
+    fin para
+    escriba "el orden de las cifras de 1 a 2 es:"
+    para n<-1 hasta 2 haga
+      llamar nueva_linea
+      escriba cifraD [n]
+      llamar nueva_linea
+    fin para
+  numero<-numero+1
+  hasta (numero=2)
+  escriba "desea continuar s/n"
+  llamar nueva_linea
+  lea resp
+  hasta (resp='n') o (resp='N')
+ fin 

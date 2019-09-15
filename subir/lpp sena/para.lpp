@@ -1,0 +1,10 @@
+entero n, i, m4
+inicio
+escriba "ingrese hasta que numero desea calcular los multiplos"
+lea n
+  Para i <- 1 Hasta n Haga
+   m4 <- i*4
+   llamar nueva_linea
+   escriba m4
+  Fin Para
+fin

@@ -1,0 +1,138 @@
+entero ciclo, opcion, codigo, contador, n
+real n1,n2,n3,n4,n5,promedio
+caracter [10] nombre
+	inicio
+	opcion<-0
+	
+		mientras opcion<-3 haga
+			escriba "menu de opciones"
+			llamar nueva_linea 
+			escriba "1.calcula el promedio de notas de un estudiante"
+			llamar nueva_linea
+			escriba "2. calcula el promedio e imprime aprobado o reprobado"
+			llamar nueva_linea
+			escriba "3. para n estudiantes calcula promedio e imprima aprobado o reprobado"
+			llamar nueva_linea
+			escriba "4. opcion para salir"
+			llamar nueva_linea
+			escriba "digite el numero que desee teniendo en cuenta el menu"
+			llamar nueva_linea
+			
+			lea opcion
+			
+			caso opcion
+			
+			1:
+				llamar nueva_linea
+				escriba "digite el codigo y nombre del alumno"
+				lea codigo,nombre
+				llamar nueva_linea
+				escriba "introduca las 5 calificaciones en la misma linea separadas por coma"
+				lea n1,n2,n3,n4,n5
+				llamar nueva_linea
+				promedio<-(n1+n2+n3+n4+n5)/5
+				escriba "registro de calificaciones"
+				llamar nueva_linea
+				escriba "codigo", codigo, "nombre del alumno: ", nombre
+				llamar nueva_linea
+				escriba "calificaciones: "
+				llamar nueva_linea
+				escriba " ",n1
+				llamar nueva_linea
+				escriba " ",n2
+				llamar nueva_linea
+				escriba " ",n3
+				llamar nueva_linea
+				escriba " ",n4
+				llamar nueva_linea
+				escriba " ",n5
+				llamar nueva_linea
+				escriba " "
+				llamar nueva_linea
+				escriba "nota final",promedio
+			2:	
+				llamar nueva_linea
+				llamar nueva_linea
+				
+				escriba "digite el codigo y nombre del alumno"
+				llamar nueva_linea
+				lea codigo, nombre
+				llamar nueva_linea
+				escriba "digite las 5 calificaciones"
+				llamar nueva_linea
+				lea n1,n2,n3,n4,n5
+				llamar nueva_linea
+				promedio<-(n1+n2+n3+n4+n5)/5
+				llamar nueva_linea
+				escriba "registro de calificaciones"
+				llamar nueva_linea
+				escriba "codigo: ", codigo, " nombre del alumno: ", nombre
+				llamar nueva_linea
+				escriba "calificaciones: "
+				llamar nueva_linea
+				escriba " ",n1
+				llamar nueva_linea
+				escriba " ",n2
+				llamar nueva_linea
+				escriba " ",n3
+				llamar nueva_linea
+				escriba " ",n4
+				llamar nueva_linea
+				escriba " ",n5
+				llamar nueva_linea
+				escriba " "
+				llamar nueva_linea
+				escriba "nota final ",promedio
+				
+				si promedio>=7 entonces
+					escriba "aprobaso"
+					sino
+						escriba "reorobado"
+					fin si
+			3:	
+				contador<=1
+				escriba "cuantos alumnos van a relacionar?"
+				llamar nueva_linea
+				lea n
+				mientras contador<=n haga
+				llamar nueva_linea
+				escriba "digite el codigo y nombre del alumno", contador, ":"
+				lea codigo,nombre
+				llamar nueva_linea
+				escriba "introduca las 5 calificaciones en la misma linea separadas por coma"
+				lea n1,n2,n3,n4,n5
+				llamar nueva_linea
+				promedio<-(n1+n2+n3+n4+n5)/5
+				escriba "registro de calificaciones"
+				llamar nueva_linea
+				escriba "codigo", codigo, "nombre del alumno: ", nombre
+				llamar nueva_linea
+				escriba "calificaciones: "
+				llamar nueva_linea
+				escriba " ",n1
+				llamar nueva_linea
+				escriba " ",n2
+				llamar nueva_linea
+				escriba " ",n3
+				llamar nueva_linea
+				escriba " ",n4
+				llamar nueva_linea
+				escriba " ",n5
+				llamar nueva_linea
+				escriba " "
+				llamar nueva_linea
+				escriba "nota final",promedio
+				
+				si promedio>=6 entonces
+					escriba "aprobado"
+				sino
+					escriba "reprobado"	
+				fin si
+			contador<-contador+1
+		fin mientras
+	4:
+	sino 
+	escriba "opcion invalida"
+fin para
+fin mientras
+fin

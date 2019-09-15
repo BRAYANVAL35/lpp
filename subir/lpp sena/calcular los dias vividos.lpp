@@ -1,0 +1,36 @@
+real A,al,D,dl,M,ml,dias
+inicio
+ escriba "digite el año actual completo"
+ llamar nueva_linea
+ lea A
+ llamar nueva_linea
+ escriba "digite el año en que nacio completo"
+ llamar nueva_linea
+ lea al
+ llamar nueva_linea
+ 
+  escriba "digite el numero del dia de hoy"
+ llamar nueva_linea
+ lea D
+ llamar nueva_linea
+  escriba "digite el numero del dia en que nacio"
+ llamar nueva_linea
+ lea dl
+ llamar nueva_linea 
+ 
+ escriba "digite el numero del mes actual"
+ llamar nueva_linea
+ lea M
+ llamar nueva_linea 
+ escriba "digite el numero del mes en que nacio"
+ llamar nueva_linea
+ lea ml
+ llamar nueva_linea
+ 
+ 
+ escriba "los dias que ha vivido son:"
+ llamar nueva_linea
+ dias<-(A-al)*365.242189+(D-dl)+(M-ml)*365.242189/12
+ llamar nueva_linea
+ escriba dias
+fin

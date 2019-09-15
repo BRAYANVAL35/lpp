@@ -1,0 +1,32 @@
+entero n
+real r
+inicio
+  llamar inicializar_aleatorio ()
+  repita
+   r<-aleatorio()*10
+   n<-r
+   escriba "el numero guardado es: ",r
+   llamar nueva_linea
+   hasta n=0
+fin
+   entero n
+   caracter x
+   inicio
+   n<-64
+   x<-car(n)
+   escriba "el carcter ascii de", n, "es:",x
+fin
+   entero n
+   caracter x
+   inicio
+   x<-@
+   n<-valor_ascii(10)
+   escriba "el caracter ascii de",x,"es:",n
+fin
+   entero n
+   cadena [15]x
+   inicio
+   x<-"victor rincon"
+   n<-longitud (x)
+   escriba "la longitud (caracteres)de", x," es",n
+fin 

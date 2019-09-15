@@ -1,0 +1,47 @@
+entero num1,num2,num3
+entero mayor, menor
+inicio
+mayor<-0
+menor<-0
+escriba "escriba el primer valor"
+lea num1
+llamar nueva_linea
+escriba "escriba el segundo valor"
+lea num2
+llamar nueva_linea
+escriba "escriba el tercer valor"
+lea num3
+llamar nueva_linea
+Si (num1>num2) y (num1>num3) y (num2<num3) entonces
+mayor<-num1
+menor<-num2
+fin si
+si (num2>num1) y (num1>num3) y (num3<num2) entonces
+mayor<-num1
+menor<-num3
+fin si
+si (num2>num1) y (num2>num3) y (num1<num3) entonces
+mayor<-num2
+menor<-num1
+fin si
+si (num2>num1) y (num2>num3) y (num3<num1) entonces
+mayor<-num2
+menor<-num3
+fin si
+si (num3>num1) y (num3>num2) y (num1<num2) entonces
+mayor<-num3
+menor<-num1
+fin si
+si (num3>num1) y (num3>num2) y (num2<num1) entonces
+mayor<-num3
+menor<-num2
+fin si
+escriba "el mayor de los tres numero es ", mayor
+llamar nueva_linea
+escriba "el menor de los tres numeros es", menor
+llamar nueva_linea
+fin
+
+
+  
+  

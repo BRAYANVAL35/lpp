@@ -1,0 +1,12 @@
+entero numero,suma,contador
+inicio
+  contador<-0
+ suma<-0
+  mientras (contador<15) haga
+  contador <-contador+2
+  llamar nueva_linea
+  escriba contador
+suma<-suma+contador
+ fin mientras
+escriba suma
+fin

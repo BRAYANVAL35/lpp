@@ -1,0 +1,44 @@
+real a,b,c,d
+ inicio
+ a<-100
+ llamar nueva_linea
+ escriba "digite el numero de copias"
+ lea b
+ llamar nueva_linea
+ 
+  si (bo<? entonces
+  llamar nueva_linea
+  d<-b*a
+  escriba "el valor de las copias es: ",d
+  
+  sino
+ 
+  si (b>100)y(b<200) entonces
+  llamar nueva_linea
+  c<-(a*12)/100
+  b<-a-c
+  d<-b*a
+  escriba "el valor de las copias es: ",d
+   
+   sino
+   
+  si (b>201)y(b<400) entonces
+  llamar nueva_linea
+  c<-(a*15)/100
+  b<-a-c
+  d<-b*a
+  escriba "el valor de las copias es: ",d
+  
+   sino
+   
+  si (b>401) entonces
+  llamar nueva_linea
+  c<-(a*18)/100
+  b<-a-c
+  d<-b*a
+  escriba "el valor de las copias es: ",d
+  fin si
+  fin si
+  fin si
+ fin si
+ fin

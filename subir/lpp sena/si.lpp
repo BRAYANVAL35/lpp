@@ -1,0 +1,32 @@
+entero papel1
+entero tijera2
+entero piedra3
+entero n, opc
+
+inicio
+opc<-1
+escriba "Que comience el juego. sabemos que papel=1, tijeras=2, piedra=3.para seguir ingrese 1, para salir del juego ingrese 0"
+llamar nueva_linea
+Mientras ((opc<>0)) Haga
+
+escriba "escoja con quien quieres jugar"
+lea n
+llamar nueva_linea
+si n=1 entonces
+escriba "tijera"
+fin si
+llamar nueva_linea
+si n=2 entonces
+escriba "piedra"
+fin si
+llamar nueva_linea
+si n=3 entonces
+escriba "papel"
+fin si
+llamar nueva_linea
+
+escriba "desea continuar degite 1 o (0) para salir"
+llamar nueva_linea
+lea opc
+Fin Mientras
+fin

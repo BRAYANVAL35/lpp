@@ -1,0 +1,10 @@
+real n,a,b
+inicio
+
+  escriba "digite el numero al que le va a sacar el vectorial"
+  llamar nueva_linea
+  lea n
+  llamar nueva_linea
+  n<- n * (n-1)
+  escriba n
+ fin

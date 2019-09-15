@@ -1,0 +1,18 @@
+real a,b,c
+inicio
+  a<-1
+  b<-1
+  
+  mientras a<=998 haga
+  a<-a+3
+  escriba a, ","
+  llamar nueva_linea
+  fin mientras
+  
+  mientras b<=1000 haga
+  b<-b+2
+  escriba b, ","
+  llamar nueva_linea
+  fin mientras
+  
+fin

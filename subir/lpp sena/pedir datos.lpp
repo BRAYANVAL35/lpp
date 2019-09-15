@@ -1,0 +1,31 @@
+cadena [10] nombre
+cadena [10] cedula
+cadena [10] telefono
+inicio
+  escriba "ingrese su nombre"
+  llamar nueva_linea
+  lea nombre
+  llamar nueva_linea
+  
+  escriba "ingrese su cedula"
+  llamar nueva_linea
+  lea cedula
+  llamar nueva_linea
+  
+  escriba "ingrese su numero de telefono"
+  llamar nueva_linea
+  lea telefono
+  llamar nueva_linea
+  
+  escriba "su nombre es:", nombre
+  llamar nueva_linea
+  
+  escriba "su cedula es:", cedula
+  llamar nueva_linea
+  
+  escriba "su numero de telefono es:", telefono
+  llamar nueva_linea
+  
+  escriba "gracias por sus datos"
+  llamar nueva_linea
+fin

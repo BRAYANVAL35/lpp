@@ -1,0 +1,29 @@
+real hombres,mujeres
+inicio
+ 
+ 
+ escriba "digite el valor total de hombres"
+ llamar nueva_linea
+ lea hombres
+ llamar nueva_linea
+ 
+ escriba "digite el valor total de mujeres"
+ llamar nueva_linea
+ lea mujeres
+ llamar nueva_linea
+ 
+ hombres<-(hombres/mujeres)*100
+ mujeres<-(mujeres/hombres)*100
+ 
+ llamar nueva_linea
+ escriba "el porcentaje de hombres es de:"
+ llamar nueva_linea
+ escriba hombres
+ llamar nueva_linea
+ 
+ escriba "el porcentaje de mujeres es de:"
+ llamar nueva_linea
+ escriba mujeres
+ llamar nueva_linea
+ 
+fin

@@ -1,0 +1,40 @@
+real n1,n2,r,m,d,s
+inicio
+ escriba "digite un numero para las operaciones"
+ llamar nueva_linea
+ lea n1
+ llamar nueva_linea
+ 
+ escriba "digite el otro numero para la operacion"
+ llamar nueva_linea
+ lea n2
+ llamar nueva_linea
+ 
+ escriba "la suma de estos dos numeros es"
+ llamar nueva_linea
+ s<-n1+n2
+ llamar nueva_linea
+ escriba s
+ llamar nueva_linea
+ 
+ escriba "la resta de estos dos numeros es"
+ llamar nueva_linea
+ r<-n1-n2
+ llamar nueva_linea
+ escriba r
+ llamar nueva_linea
+ 
+  escriba "la multiplicacion de estos dos numeros es"
+ llamar nueva_linea
+ m<-n1*n2
+ llamar nueva_linea
+ escriba m
+ llamar nueva_linea
+ 
+  escriba "la division de estos dos numeros es"
+ llamar nueva_linea
+ d<-n1/n2
+ llamar nueva_linea
+ escriba d
+ llamar nueva_linea
+ fin

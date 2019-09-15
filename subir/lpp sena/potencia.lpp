@@ -1,0 +1,18 @@
+real x,n,po,c
+inicio
+  escriba "la potencia de dos"
+  llamar nueva_linea
+  escriba "digite el numero a sacarle la potencia"
+  lea x
+  escriba "ingrese la potencia"
+  lea n
+  
+    po<-1
+    c<-1
+    
+   mientras c<=n haga
+   po<-po*x
+   c<-c+1
+   fin mientras
+ Escriba x,"^",n,"=",po
+fin

@@ -1,0 +1,24 @@
+caracter resp
+real nota
+entero ca,cr
+cadena [25] nombre
+inicio
+  ca<-0
+  cr<-0
+    repita 
+    escriba "ingrese el nombre del alumno"
+    lea nombre
+    escriba "ingrese la nota del alumno"
+    lea nota
+    si nota >=3.0 entonces
+    ca<-ca+1
+    sino
+    cr<-cr+1
+    fin si
+    escriba "desea continuar? s/n" 
+    lea resp
+    hasta resp='n'
+    escriba "aprobados", ca
+    llamar nueva_linea
+    escriba "reprobados", cr
+fin

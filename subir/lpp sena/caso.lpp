@@ -1,0 +1,18 @@
+real dest, precio,pagof
+caracter talla
+inicio
+  escriba "ingrese la talla"
+  lea talla
+  escriba "ingrese el precio"
+  lea precio
+    caso talla
+    's': dest <- precio*0.2
+    'm': dest <- precio*0.1
+    'x': dest <- precio*0.5
+   fin caso
+  pagof<-precio-dest
+  escriba "el descuento es", dest
+  llamar nueva_linea
+  escriba "el pago final es",pagof
+fin
+  

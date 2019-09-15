@@ -1,0 +1,47 @@
+real hombres,mujeres,niños,total
+inicio
+ 
+ escriba "digite el valor total de personas"
+ llamar nueva_linea
+ lea total
+ llamar nueva_linea
+ 
+ escriba "digite el valor total de hombres"
+ llamar nueva_linea
+ lea hombres
+ llamar nueva_linea
+ 
+ escriba "digite el valor total de mujeres"
+ llamar nueva_linea
+ lea mujeres
+ llamar nueva_linea
+ 
+ escriba "digite el valor total de niños"
+ llamar nueva_linea
+ lea niños
+ llamar nueva_linea
+ 
+ hombres<-(hombres/total)*100
+ mujeres<-(mujeres/total)*100
+ niños<-(niños/total)*100
+ 
+ llamar nueva_linea
+ escriba "el porcentaje de hombres es de:"
+ llamar nueva_linea
+ escriba hombres
+ llamar nueva_linea
+ llamar nueva_linea
+ 
+ escriba "el porcentaje de mujeres es de:"
+ llamar nueva_linea
+ escriba mujeres
+ llamar nueva_linea
+ llamar nueva_linea
+ 
+ escriba "el porcentaje de niños es de:"
+ llamar nueva_linea
+ escriba niños
+ llamar nueva_linea
+ llamar nueva_linea 
+ 
+fin
